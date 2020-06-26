@@ -1,6 +1,6 @@
 {
   "name": "angularversion",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "releasedev": "standard-version",
-    "releasedevte": "standard-version --skip.tag",
+    "releasedevte": "standard-version --skip.tag=true",
     "release": "standard-version && git push --follow-tags origin master",
     "release:minor": "standard-version --release-as minor && git push --follow-tags origin master",
     "release:major": "standard-version --release-as major && git push --follow-tags origin master"
