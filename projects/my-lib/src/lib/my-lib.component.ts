@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'lib-my-lib',
   template: `
     <p>
-      my-lib works222254657dfdf567!
+      my-lib works222254657dfdffg567!
     </p>
   `,
   styles: [
